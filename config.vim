@@ -145,6 +145,13 @@ Plug 'myusuf3/numbers.vim'
 " Nice icons in the file explorer and file type status line.
 Plug 'ryanoasis/vim-devicons'
 
+" Add lukio plugins from vim
+
+" typescript indentation
+Plug 'leafgarland/typescript-vim'
+" apply editorconfig of project
+Plug 'editorconfig/editorconfig-vim'
+
 if using_vim
     " Consoles as buffers (neovim has its own consoles as buffers)
     Plug 'rosenfeld/conque-term'
